@@ -6,23 +6,6 @@ snippet bow
 cool story bro
 endsnippet
 
-snippet todo "TODO(user): foobar <datetime>"  bw
+snippet todo "TODO(user): foobar"  bw
 `!p snip.rv=get_comment_format()[0]` TODO(`git config --get user.email | sed -E 's/@.*//'`): $0
-endsnippet
-
-priority -1
-snippet todo* "TODO(user): foobar <datetime>"
-TODO(`git config --get user.email | sed -E 's/@.*//'`): $0
-endsnippet
-
-snippet wellness* "Wellness check"
-Well being
-* Walk the dog: $0
-* Coffee for Rachel: TODO
-* Time to read/listen for enjoyment: TODO
-* Be in nature: TODO
-* Exercise: TODO
-* Drink water: TODO
-* Call parents/friends: TODO
-* Personal project: TODO
 endsnippet
